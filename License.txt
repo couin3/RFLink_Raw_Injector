@@ -1,0 +1,49 @@
+=====================================================================================================================================
+                                                      RFLINK RAW INJECTOR LICENSE v1.0
+=====================================================================================================================================
+Arduino project "RFLink Raw Injector"
+
+© Copyright 2020 Marc RIVES
+
+Documentation                                   : https://github.com/couin3/RFLink_Raw_Injector
+Questions/Suggestions etc. mail to              : couin3@laposte.net
+Compiler                                        : https://www.arduino.cc/ ; https://platformio.org/
+=====================================================================================================================================
+LICENSE TERMS AND CONDITIONS
+
+The RFLink Raw Injector distributed code is made available free of charge and without any warranties.
+This License explicitly affirms your unlimited permission to run the unmodified Program.
+If someone made you pay for this program, contact us!
+
+You are not allowed to sell the pre-compiled code or the source code or distribute it without this license file. 
+
+Usage of any parts of this code in a commercial work is prohibited unless express written approval is granted!
+Some parts of the code might contain watermarking to identify our work.
+You are not allowed to decompile, disassemble or reverse engineer any parts of the pre-compiled program.
+
+The license does not permit incorporating this program into proprietary programs.
+
+Disclaimer of Warranty.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+The copyright holders provide the program "AS IS" without warranty of any kind, either expressed or implied, including, but not limited to, 
+the implied warranties of merchantability or fitness for a particular purpose. The entire risk as to the quality and performance of the program
+is with you. Should the program prove defective, you assume the cost of all necessary servicing, repair or correction.
+
+Limitation of Liability.
+In no event unless required by applicable law or agreed to in writing will any copyright holder, or any other party who modifies and/or conveys
+the program as permitted above, be liable to you for damages, including any general, special, incidental or consequential damages arising out of the 
+ues or inability to use the program (including but not limited to loss of data being rendered inaccurate or losses sustained by you or third 
+parties or a failure of the program to operate with any other programs), even if such holder or other party has been advised of the possibility of
+such damages.
+-------------------------------------------------------------------------------------------------------------------------------------
+Warning: 
+The RFLink Raw Injector should not be used in any life-threatening situations. 
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Installation information:
+
+All files should be located in a directory named "RFLink_Raw_Injector".
+Install the Arduino compiler. You can download the compiler at www.arduino.cc
+Prefered is 1.8.10 or similar
+Open from the Arduino IDE the file RFLink_Raw_Injector.ino
+-------------------------------------------------------------------------------------------------------------------------------------
