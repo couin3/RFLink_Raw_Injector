@@ -18,7 +18,7 @@ void setup()
   playMsg(msgPreamble, NELEMS(msgPreamble));
   for (byte j = 0; j < msgRepeat; j++)
   {
-    playMsg(msgTemp, NELEMS(msgTemp));
+    playMsg(msgDoor, NELEMS(msgDoor));
     playMsg(msgInterlude, NELEMS(msgInterlude));
   }
   playMsg(msgEnd, NELEMS(msgEnd));
