@@ -81,9 +81,9 @@ void playMsg(const unsigned int *msg, const unsigned int msgSize)
   for (unsigned int i = 0; i < msgSize; i += 2)
   {
     digitalWrite(PIN_DATA, HIGH);
-    delayMicroseconds(msg[i]);
+    delayMicroseconds(msg[i] + 100);
 
     digitalWrite(PIN_DATA, LOW);
-    delayMicroseconds(msg[i + 1]);
+    delayMicroseconds(msg[i + 1] + 100);
   }
 }
