@@ -5,7 +5,8 @@
 #include "common_msg.h"
 #include "raw_msg.h"
 
-void setup() {
+void setup()
+{
   // Low Power Setup
   power_Setup();
   // Starting transmitter
@@ -38,10 +39,10 @@ void loop()
 
 void power_Setup()
 {
-  ADCSRA = 0;             // disable ADC
-  power_all_disable();    // turn off all modules
-  power_timer0_enable();  // turn on Timer/Counter0
-  set_sleep_mode (SLEEP_MODE_PWR_DOWN);
+  ADCSRA = 0;            // disable ADC
+  power_all_disable();   // turn off all modules
+  power_timer0_enable(); // turn on Timer/Counter0
+  set_sleep_mode(SLEEP_MODE_PWR_DOWN);
   sleep_enable();
 }
 
@@ -74,9 +75,10 @@ void radio_tx_Setdown()
   pinMode(PIN_DATA, INPUT);
 }
 
-void playMsg(const unsigned int * msg, const byte msgSize) {
+void playMsg(const unsigned int *msg, const unsigned int msgSize)
+{
 
-  for (byte i = 0; i < msgSize; i += 2)
+  for (unsigned int i = 0; i < msgSize; i += 2)
   {
     digitalWrite(PIN_DATA, HIGH);
     delayMicroseconds(msg[i]);
